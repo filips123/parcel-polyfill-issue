@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "parcel": "2.1.1"
+  },
+  "source": "src/index.html",
+  "scripts": {
+    "watch": "parcel --no-content-hash",
+    "build": "parcel build --no-content-hash"
+  }
+}
