@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "parcel": "2.1.1"
+  },
+  "dependencies": {
+    "semver": "7.3.5"
+  },
+  "source": "src/index.html",
+  "scripts": {
+    "watch": "parcel --no-content-hash",
+    "build": "parcel build --no-content-hash"
+  }
+}
